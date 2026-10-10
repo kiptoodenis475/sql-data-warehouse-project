@@ -50,7 +50,11 @@ BEGIN
             cst_key,
             TRIM(cst_firstname) AS cst_firstname,
             TRIM(cst_lastname) AS cst_lastname,
-            cst_material_status,
+            CASE 
+            WHEN UPPER(TRIM(cst_material_status)) = 'M' THEN 'Married'
+            WHEN UPPER(TRIM(cst_material_status)) = 'S' THEN 'Single'
+            ELSE 'n/a'
+           END AS cst_material_status,
             CASE WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'Female'
                  WHEN UPPER(TRIM(cst_gndr)) = 'M' THEN 'Male'
                  ELSE 'n/a'
