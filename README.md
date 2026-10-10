@@ -79,3 +79,8 @@ data-warehouse-project/
 ├── LICENSE                     # License information for the repository
 ├── .gitignore                  # Files and directories to be ignored by Git
 └── requirements.txt            # Dependencies and requirements for the project
+🛡️ License
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
+
+👤 About Me
+Hi there! I'm Denis Kiptoo, a Data Analyst and Data Engineering enthusiast based in Nairobi, Kenya. I hold a Bachelor of Science in Economics and Statistics from the University of Nairobi. I am passionate about transforming complex datasets into clean, reliable, and actionable insights using modern data tools and workflows.
